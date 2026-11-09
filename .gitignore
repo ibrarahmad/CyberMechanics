@@ -1,0 +1,23 @@
+# Runtime (never commit)
+.run/
+*.pid
+*.log
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+.env
+.DS_Store
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+cookies.txt
+shared/data/*.db
+shared/data/*.db-*
+*.sqlite
+*.sqlite3

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="Premium lab map after stopping 8080: connection refused while 5050 still answers">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0D12"/>
+      <stop offset="50%" stop-color="#12151C"/>
+      <stop offset="100%" stop-color="#0A0C10"/>
+    </linearGradient>
+    <radialGradient id="glowBad" cx="85%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#C96A6A" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#C96A6A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg2)"/>
+  <rect width="1280" height="720" fill="url(#glowBad)"/>
+  <rect x="0" y="0" width="4" height="720" fill="#E8C547"/>
+
+  <text x="56" y="58" fill="#E8C547" font-family="Ubuntu, Arial, sans-serif" font-size="16" letter-spacing="6" font-weight="500">CYBER MECHANICS</text>
+  <text x="56" y="118" fill="#FFF8EC" font-family="Georgia, serif" font-size="54" font-weight="700">What you’ll do in this lab</text>
+  <text x="56" y="158" fill="#C9BBA8" font-family="Ubuntu, Arial, sans-serif" font-size="24">Stop only 8080 · prove the split · then restore it on Ubuntu.</text>
+
+  <rect x="56" y="210" width="280" height="360" rx="18" fill="#141820" stroke="rgba(255,248,236,.14)" stroke-width="1.5"/>
+  <rect x="148" y="250" width="96" height="68" rx="8" fill="none" stroke="#5FD3B0" stroke-width="2.5"/>
+  <rect x="160" y="262" width="72" height="40" rx="4" fill="rgba(95,211,176,.12)" stroke="#5FD3B0" stroke-width="1.5"/>
+  <text x="196" y="390" text-anchor="middle" fill="#C9BBA8" font-family="Ubuntu, Arial, sans-serif" font-size="22">This computer</text>
+  <text x="196" y="440" text-anchor="middle" fill="#5FD3B0" font-family="Ubuntu Mono, Menlo, monospace" font-size="36" font-weight="700">127.0.0.1</text>
+
+  <rect x="380" y="210" width="400" height="360" rx="18" fill="#171B24" stroke="#A8BE96" stroke-width="2.5"/>
+  <text x="420" y="300" fill="#FFF8EC" font-family="Ubuntu Mono, Menlo, monospace" font-size="64" font-weight="700">5050</text>
+  <text x="420" y="350" fill="#C9BBA8" font-family="Ubuntu, Arial, sans-serif" font-size="28">training app</text>
+  <rect x="420" y="390" width="240" height="44" rx="22" fill="rgba(0,0,0,.35)" stroke="rgba(168,190,150,.45)"/>
+  <circle cx="448" cy="412" r="6" fill="#A8BE96"/>
+  <text x="466" y="419" fill="#A8BE96" font-family="Ubuntu, Arial, sans-serif" font-size="18" font-weight="700">STILL RUNNING</text>
+  <text x="420" y="480" fill="#A8BE96" font-family="Ubuntu Mono, Menlo, monospace" font-size="28">200 OK</text>
+
+  <rect x="820" y="210" width="400" height="360" rx="18" fill="#171B24" stroke="#C96A6A" stroke-width="2.5"/>
+  <text x="860" y="300" fill="#FFF8EC" font-family="Ubuntu Mono, Menlo, monospace" font-size="64" font-weight="700">8080</text>
+  <text x="860" y="350" fill="#C9BBA8" font-family="Ubuntu, Arial, sans-serif" font-size="28">HTTP demo</text>
+  <rect x="860" y="390" width="180" height="44" rx="22" fill="rgba(0,0,0,.35)" stroke="rgba(201,106,106,.5)"/>
+  <circle cx="888" cy="412" r="6" fill="#C96A6A"/>
+  <text x="906" y="419" fill="#C96A6A" font-family="Ubuntu, Arial, sans-serif" font-size="20" font-weight="700">STOPPED</text>
+  <text x="860" y="480" fill="#C96A6A" font-family="Ubuntu Mono, Menlo, monospace" font-size="24">Connection refused</text>
+
+  <rect x="56" y="600" width="1168" height="56" rx="14" fill="rgba(0,0,0,.28)" stroke="rgba(255,248,236,.1)"/>
+  <text x="80" y="636" fill="#D2C7B4" font-family="Ubuntu, Arial, sans-serif" font-size="22">Connection refused = nothing is listening on that port.</text>
+</svg>
